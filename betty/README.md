@@ -3,7 +3,7 @@ Betty is coding style for Holberton School/ALX and I used to follow that style d
 # Betty linter
 To run the Betty linter just with command betty <filename>:
 
-* Go to the Betty repository
+* Go to the [Betty](https://github.com/alx-tools/Betty) repository
 * Clone the repo to your local machine
 * cd into the Betty directory
 * Install the linter with sudo ./install.sh
