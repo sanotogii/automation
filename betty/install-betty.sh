@@ -10,7 +10,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install git
 git clone https://github.com/alx-tools/Betty.git
 
-cd Betty
+cd Betty || exit
 
 sudo ./install.sh
 
