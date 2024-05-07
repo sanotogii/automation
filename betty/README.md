@@ -1,3 +1,5 @@
+# important
+the script must run with sudo
 # Small description
 Betty is coding style for Holberton School/ALX and I used to follow that style during my learning
 # Betty linter
