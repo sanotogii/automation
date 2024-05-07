@@ -1,5 +1,10 @@
 #!/bin/bash
 #the script must run with sudo
+if [ "$(id -u)" != "0" ]; then
+    echo "This script must be run with sudo."
+    exit 1
+fi
+
 #update machine and install git
 sudo apt update && sudo apt upgrade -y
 sudo apt install git
